@@ -1,0 +1,8 @@
+#demo {
+    display: grid;
+    grid-template-rows: 80vh;
+}
+
+.header {
+    grid-row: 1 / 2;
+}
