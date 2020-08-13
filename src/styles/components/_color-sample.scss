@@ -11,8 +11,8 @@
     }
 
     &__text {
-        @extend .heading-tertiary;
-        @extend .heading-tertiary--white;
+        @extend h3;
+        @extend .text--white;
         margin-top: 40%;
 
         &--black {

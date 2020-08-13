@@ -1,7 +1,7 @@
 <template>
     <div id="overview">
         <section class="section-colors">
-      <h1 class="heading-primary section__header">Colors</h1>
+      <h1 class="section__header">Colors</h1>
       <div class="color__container">
         <div class="color__type">
           <h2 class="color__type__header">Primary</h2>
@@ -76,28 +76,28 @@
     </section>
 
     <section class="section-text">
-      <h1 class="heading-primary section__header">Text</h1>
+      <h1 class="section__header">Text</h1>
       <div class="text-container">
-        <h1 class="heading-primary">Heading-Primary</h1>
-        <h1 class="heading-primary heading-primary--white">Heading-Primary White</h1>
-        <h1 class="heading-primary heading-primary--black">Heading-Primary Black</h1>
-        <h1 class="heading-primary heading-primary--gradient">Heading-Primary Gradient</h1>
-        <h2 class="heading-secondary">Heading-Secondary</h2>
-        <h2 class="heading-secondary heading-secondary--white">Heading-Secondary White</h2>
-        <h2 class="heading-secondary heading-secondary--black">Heading-Secondary Black</h2>
-        <h2 class="heading-secondary heading-secondary--gradient">Heading-Secondary Gradient</h2>
-        <h3 class="heading-tertiary">Heading-Tertiary</h3>
-        <h3 class="heading-tertiary heading-tertiary--white">Heading-Tertiary White</h3>
-        <h3 class="heading-tertiary heading-tertiary--black">Heading-Tertiary Black</h3>
-        <p class="paragraph">Paragraph</p>
-        <p class="paragraph paragraph--black">Paragraph Black</p>
-        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, quisquam. Molestiae cupiditate 
+        <h1>Heading-Primary</h1>
+        <h1 class="text--white">Heading-Primary White</h1>
+        <h1 class="text--black">Heading-Primary Black</h1>
+        <h1 class="text--gradient">Heading-Primary Gradient</h1>
+        <h2>Heading-Secondary</h2>
+        <h2 class="text--white">Heading-Secondary White</h2>
+        <h2 class="text--black">Heading-Secondary Black</h2>
+        <h2 class="text--gradient--seconary">Heading-Secondary Gradient</h2>
+        <h3>Heading-Tertiary</h3>
+        <h3 class="text--white">Heading-Tertiary White</h3>
+        <h3 class="text--black">Heading-Tertiary Black</h3>
+        <p>Paragraph</p>
+        <p class="text--black">Paragraph Black</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, quisquam. Molestiae cupiditate 
           unde minus a facere illum vero tenetur pariatur. Rem praesentium quas aspernatur a! Architecto alias nobis quisquam labore!</p>
       </div>
     </section>
 
     <section class="section-components">
-      <h1 class="heading-primary section__header">Components</h1>
+      <h1 class="section__header">Components</h1>
       <div class="components-container">
         <div class="component__type">
             <h2 class="component__type__header">Buttons</h2>

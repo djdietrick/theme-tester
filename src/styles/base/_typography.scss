@@ -11,7 +11,7 @@ a {
     text-decoration: none;
 }
 
-.heading-primary {
+h1 {
     display: block;
     backface-visibility: hidden;
     margin-bottom: 6rem;
@@ -25,23 +25,9 @@ a {
     animation-name: fadeIn;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
-
-    &--white {
-        color: $color-white;
-    }
-
-    &--black {
-        color: $color-grey-dark-3;
-    }
-
-    &--gradient {
-        -webkit-background-clip: text;
-        background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
-        color: transparent;
-    }
 }
 
-.heading-secondary {
+h2 {
     text-transform: italic;
     display: inline-block;
     transition: all .2s;
@@ -50,38 +36,18 @@ a {
     font-weight: $h2-font-weight;
     letter-spacing: $h2-letter-spacing;
     color: $h2-color;
-
-    &--white {
-        color: $color-grey-light-1;
-    }
-    &--black {
-        color: $color-grey-dark-3;
-    }
-
-    &--gradient {
-        -webkit-background-clip: text;
-        background-image: linear-gradient(to right, $color-secondary-light, $color-secondary-dark);
-        color: transparent;
-    }
 }
 
-.heading-tertiary {
+h3 {
     text-transform: uppercase;
 
     font-weight: $h3-font-weight;
     font-size: $h3-font-size;
     letter-spacing: $h3-letter-spacing;
     color: $h3-color;
-
-    &--white {
-        color: $color-white;
-    }
-    &--black {
-        color: $color-grey-dark-3;
-    }
 }
 
-.paragraph {
+p {
     font-size: $p-font-size;
     font-weight: $p-font-weight;
     letter-spacing: $p-letter-spacing;
@@ -90,8 +56,34 @@ a {
     &:not(:last-child) {
         margin-bottom: 3rem;
     }
+}
 
+.text {
+    &--primary {
+        color: $color-primary;
+    }
+    &--secondary {
+        color: $color-secondary;
+    }
+    &--tertiary {
+        color: $color-tertiary;
+    }
+    &--white {
+        color: $color-white;
+    }
     &--black {
-        color: $color-grey-dark-3;
+        color: $color-black;
+    }
+    &--gradient {
+        -webkit-background-clip: text;
+        color: transparent;
+        background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+
+        &--secondary {
+            background-image: linear-gradient(to right, $color-secondary-light, $color-secondary-dark);
+        }
+        &--tertiary {
+            background-image: linear-gradient(to right, $color-tertiary-light, $color-tertiary-dark);
+        }
     }
 }

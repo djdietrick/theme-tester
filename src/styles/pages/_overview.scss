@@ -35,8 +35,8 @@
             justify-items: center;
     
             &__header {
-                @extend .heading-secondary;
-                @extend .heading-secondary--white;
+                @extend h2;
+                @extend .text--white;
                 
                 grid-column: 1 / -1;
                 grid-row: 1 / 2;
@@ -100,8 +100,8 @@
             margin-bottom: 4rem;
 
             &__header {
-                @extend .heading-secondary;
-                @extend .heading-secondary--white;
+                @extend h2;
+                @extend .text--white;
                 grid-row: 1 / 2;
             }
 
